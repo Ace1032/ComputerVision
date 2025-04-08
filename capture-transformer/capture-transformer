@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~sbsiewert/csci612/code/capture-transformer</title>
+ </head>
+ <body>
+<h1>Index of /~sbsiewert/csci612/code/capture-transformer</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~sbsiewert/csci612/code/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Makefile">Makefile</a></td><td align="right">2021-08-28 09:57  </td><td align="right">1.1K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="canny.cpp">canny.cpp</a></td><td align="right">2021-08-28 09:57  </td><td align="right">1.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="capture.cpp">capture.cpp</a></td><td align="right">2021-08-28 09:57  </td><td align="right"> 28K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="hardware.out">hardware.out</a></td><td align="right">2021-08-28 09:57  </td><td align="right"> 24K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="hough_circle.cpp">hough_circle.cpp</a></td><td align="right">2021-08-28 09:57  </td><td align="right">1.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="hough_line.cpp">hough_line.cpp</a></td><td align="right">2021-08-28 09:57  </td><td align="right">1.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="opencv_cheatsheet.pdf">opencv_cheatsheet.pdf</a></td><td align="right">2021-08-28 09:57  </td><td align="right">147K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="sobel.cpp">sobel.cpp</a></td><td align="right">2021-08-28 09:57  </td><td align="right">1.3K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>
