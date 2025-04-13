@@ -1,0 +1,42 @@
+# OpenCV Line Detection with Canny and Hough Transform
+
+This program demonstrates how to:
+- Load an image in grayscale
+- Detect edges using Canny edge detection
+- Draw detected lines using the Hough Transform (standard and probabilistic)
+
+---
+
+Step-by-Step Explanation
+
+1. Load Image as Grayscale
+OpenCV’s `imread` can convert an image to **1-channel grayscale** using the `IMREAD_GRAYSCALE` flag:
+```cpp
+Mat src = imread(filename, IMREAD_GRAYSCALE);
+2. Apply Canny Edge Detection
+Canny detects edges based on image gradient intensity:
+
+
+
+Canny(src, dst, 50, 200, 3);
+3. Convert to BGR Before Drawing Lines
+OpenCV’s Canny() returns a 1-channel grayscale image, but the line() function expects a 3-channel (BGR) image for colored output.
+
+So we convert it:
+
+
+cvtColor(dst, cdst, COLOR_GRAY2BGR);
+This enables colored line drawing like:
+
+
+line(cdst, pt1, pt2, Scalar(0, 0, 255), 3, LINE_AA); // Red line
+ Use Cases
+Line Detection in Documents or Forms
+Detect table structures, form boxes, and margins
+
+Useful for preprocessing in OCR or scanning board games like Sudoku or chess
+
+Lane Detection in Autonomous Driving
+Use edge and line detection to find road lane markers
+
+Helps self-driving systems detect and follow yellow or white road lines
