@@ -24,10 +24,10 @@ int main(int argc, char** argv){
 
 		cvtColor(src, gray, COLOR_BGR2GRAY);
 
-		threshold(gray, binary, 70, 255, THRESH_BINARY);
+		threshold(gray, binary, 170, 255, THRESH_BINARY);
 		binary = 255 - binary;
 
-		medianBlur(binary, mfblur, 1);
+		medianBlur(binary, mfblur, 3);
 
 		Mat skel(mfblur.size(), CV_8UC1, Scalar(0));
 		Mat temp, eroded;
